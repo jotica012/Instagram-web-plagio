@@ -1,0 +1,99 @@
+
+.card {
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 280px;
+    height: 330px;
+    padding: 6.9rem 1.2rem;
+    margin: 55px 0px 0px 600px;
+    text-align: center;
+    background: #ffffff;
+   }
+   /*Inputs*/
+   .field {
+    margin-top: .50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    padding: 1.5em 2em;
+   }
+   .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 60%;
+    color: #000000;
+   }
+   
+   /*Logo*/
+
+   .logo{
+    width: 120px;
+   }
+
+.apps{
+    position: absolute;
+    top: 64%;
+    left: 42%;
+}
+.fb{
+    position: absolute;
+    top: 57%;
+    left: 44%;
+}
+.footer{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+   .title {
+    margin-bottom: 1rem;
+    font-size: .9em;
+    font-weight: 500;
+    color: #000000;
+    font-family: sans-serif;
+   }
+   
+   /*Buttons*/
+   .btn {
+    margin: 6rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 1.6em 2.2em;
+    background-color: #259fdc;
+    color: #ffffff;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   
+   .btn-link {
+    color: #0c599b;
+    display: block;
+    font-size: .75em;
+    transition: color .3s ease-out;
+    font-family: sans-serif;
+   }
+   
+   /*Hover & focus*/
+   .field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   .btn:hover {
+    background-color: #2b418b;
+    color: #353535;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+   }
+   
+   .btn-link:hover {
+    color: #3c3c3c;
+   }
+   

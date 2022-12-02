@@ -1,0 +1,65 @@
+.card {
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 280px;
+    height: 130px;
+    padding: 6.9rem 3.2rem;
+    margin: 55px 0px 0px 600px;
+    text-align: center;
+    background: #ffffff;
+   }
+   .logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+   /*Inputs*/
+   .field {
+    margin-top: .50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #e7e7e7;
+    border-radius: 1px;
+    padding: .5em 1em;
+   }
+   .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #000000;
+   }
+   .btn {
+    margin: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 0.6em 8.2em;
+    background-color: #259fdc;
+    color: #ffffff;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   .btn-link {
+    color: #0c599b;
+    display: block;
+    font-size: .65em;
+    transition: color .3s ease-out;
+    font-family: sans-serif;
+    padding: 7.6em 1em
+   }
+   /*Hover & focus*/
+   .field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   } 
+   .btn:hover {
+    background-color: #2b418b;
+    color: #353535;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+   }

@@ -1,0 +1,287 @@
+.myprofileinformation{
+    position: absolute;
+    top: 8%; 
+    left: 68%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 0px;
+    
+}
+
+.myprofileinformation1{
+    position: absolute;
+    top: 8%; 
+    left: 68%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.card1{
+    position: absolute;
+    top: 200px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp1{
+    position: absolute;
+    top: 500%;
+    width: 45px;
+    height: 45px;
+
+}
+
+.card2{
+    position: absolute;
+    top: 70px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp2{
+    position: absolute;
+    top: 200%;
+    width: 45px;
+    height: 45px;
+
+}
+.ppinformation2{
+    position: absolute;
+    top: 60%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.card3{
+    position: absolute;
+    top: 70px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp3{
+    position: absolute;
+    top: 200%;
+    width: 45px;
+    height: 45px;
+
+}
+.ppinformation3{
+    position: absolute;
+    top: 60%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.card4{
+    position: absolute;
+    top: 70px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp4{
+    position: absolute;
+    top: 200%;
+    width: 45px;
+    height: 45px;
+
+}
+.ppinformation4{
+    position: absolute;
+    top: 60%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.card5{
+    position: absolute;
+    top: 70px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp5{
+    position: absolute;
+    top: 200%;
+    width: 45px;
+    height: 45px;
+
+}
+.ppinformation5{
+    position: absolute;
+    top: 60%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+
+.card6{
+    position: absolute;
+    top: 70px;
+    left: 90px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.pp6{
+    position: absolute;
+    top: 200%;
+    width: 45px;
+    height: 45px;
+
+}
+.ppinformation6{
+    position: absolute;
+    top: 60%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.pp{
+    position: absolute;
+    top: 10%;
+    left: 63%;
+    width: 45px;
+    height: 45px;
+
+}
+
+.ppinformation{
+    position: absolute;
+    top: 50%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.ppinformation1{
+    position: absolute;
+    top: 50%; 
+    left: 210%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.suggest{
+    position: absolute;
+    top: 190%; 
+    left: 10%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    inline-size: min-content;
+    color: rgb(161, 158, 158);
+}
+.suggest1{
+    position: absolute;
+    top: 250%; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(30, 30, 30);
+}
+.suggest2{
+    position: absolute;
+    top: 10%; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.follow{
+    
+    position: absolute;
+    top: 250px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.follow2{
+    
+    position: absolute;
+    top: 340px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.follow3{
+    
+    position: absolute;
+    top: 426px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.follow4{
+    
+    position: absolute;
+    top: 512px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.follow5{
+    
+    position: absolute;
+    top: 600px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+
+.follow6{
+    
+    position: absolute;
+    top: 688px; 
+    left: 700%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(20, 157, 255);
+}
+.igstories{
+    position: absolute;
+    top: 110px; 
+    left: 350px;
+}
+.myprofilepic{
+    position: absolute;
+    top: 128px; 
+    left: 780px; 
+}
+.lowinformation{
+    position: absolute;
+    top: 680px; 
+    left: 798px;
+}
+
+.igstories{
+    position: absolute;
+    top: 110px; 
+    left: 350px;
+}
+.myprofilepic{
+    position: absolute;
+    top: 128px; 
+    left: 780px; 
+}
+.sidebar{
+    position:fixed;
+    top: 0%;
+    left: 0%;
+}
+

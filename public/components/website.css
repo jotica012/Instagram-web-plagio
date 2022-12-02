@@ -1,0 +1,345 @@
+.body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    position: absolute;
+    top: 10px ;
+    background: white;
+    border-bottom: solid;
+    border-color: rgb(202, 202, 202);
+    border-width: 1px;
+    
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    
+    width: 10%;
+    height: auto;
+    padding: 5px 0;
+    
+}
+
+.search {
+    position: absolute;
+    left: 500px;
+    padding: 15px 0;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    padding-top: 20px;  
+}
+
+nav img{
+    position: relative;
+    right: 130px;
+}
+
+.storieBar {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 120px;
+    margin: 25px 200px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    border-radius: 8px;
+}
+
+.storie li {
+    display: inline-block;
+    margin: 0 0 10px 15px;
+    padding-top: 22px; 
+    position: absolute;
+}
+
+.storie p{
+    margin: 0 15px;
+    padding: 0;
+    position: absolute;
+    top: 168px;
+    font-size: 10pt;
+}
+
+.ring{
+   position: absolute;
+   margin: 0 0 10px 15px;
+   padding-top: 19px; 
+   left: 198px;
+}
+
+.suggestions {
+    float: right;
+
+    position: absolute;
+    top: 100px;
+
+    width: 450px;
+    height: 500px;
+
+    margin: 0px 690px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
+.profile{
+    margin: 0 10px ;
+    padding: auto;
+}
+
+.profile h1{
+    font-size: 10pt;
+    position: absolute;
+    top: 10px;
+    right: 290px;  
+}
+
+.profile p {
+    font-size: 10pt;
+    position: absolute;
+    top: 23px;
+    right: 321px;
+}
+
+.profile h2{
+    font-weight: normal;
+    color: darkgray;
+    position: absolute;
+    top : 65px;
+    font-size: 11pt;
+}
+
+.profiles{
+    margin: 0 10px;
+}
+.user{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 10px;
+    width: 45px;
+    height: 45px;
+
+    clip-path: circle(50%);
+
+}
+
+.dots{
+    position: relative;
+    left: 350px;
+    top: 0px;
+    bottom: 20px;
+}
+
+.title{
+    position: relative;
+    bottom: 52px;
+    left: 65px;
+    font-family: 'ubuntu', serif;
+    font-size: 13px;
+}
+
+.bg{
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    width: 400px;
+    height: 500px;
+
+}
+
+.heart{
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.chat{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.send{
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+    width: 25px;
+    height: 25px;
+}
+
+.save{
+    position: relative;
+    bottom: 42px;
+    left: 300px;
+    width: 25px;
+    height: 22px;
+}
+
+.bottomsection{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 14px;
+}
+
+.comment{
+    color:rgb(165, 165, 165);
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 12px;
+}
+
+.date{
+    color:rgb(165, 165, 165);
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 10px;
+}
+.polaroid{
+    width: 430px;
+    height: 720px;
+    top: 10%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 2%;
+    margin: 20%;
+}
+.polaroid:nth-child(1) {
+    position: relative;
+    right: 10px;
+    bottom: 720px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+.user{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 10px;
+    width: 45px;
+
+    clip-path: circle(50%);
+
+}
+
+.dots{
+    transform: rotate(90deg);
+    height: 1%;
+    position: relative;
+    left: 350px;
+    top: 0px;
+    bottom: 45px;
+}
+
+.title{
+    position: relative;
+    bottom: 52px;
+    left: 65px;
+    font-family: 'ubuntu', serif;
+    font-size: 13px;
+}
+
+.bg{
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    width: 400px;
+    height: 500px;
+
+}
+
+.heart{
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.chat{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.send{
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+    width: 25px;
+    height: 25px;
+}
+
+.save{
+    position: relative;
+    bottom: 42px;
+    left: 300px;
+    width: 20px;
+    height: 25px;
+}
+
+.bottomsection{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 14px;
+}
+
+.comment{
+    color:rgb(165, 165, 165);
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 12px;
+}
+
+.date{
+    color:rgb(165, 165, 165);
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-family: 'ubuntu', serif;
+    font-size: 10px;
+}
